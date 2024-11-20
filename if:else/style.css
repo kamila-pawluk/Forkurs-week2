@@ -1,0 +1,11 @@
+.body{
+    background-color: rgb(195, 218, 238);
+}
+.lightbulb{
+    background-color: yellow;
+    width: 500px;
+    height: 300px;
+}
+.active{
+    background-color: gray;
+}
