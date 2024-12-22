@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container" class="container">
+        <h1>Krokodill spill</h1>
+    </div>
+    <div id="container1">
+        <h2 id="points">Points: </h2>
+        <img src="./krokodilleSpill.png" alt="Krokodill bilde"
+        width="300px"
+        height="300px">
+    </div>
+    <div id="numbersContainer" style="display: flex;align-items: center; gap: 10px;">
+        <span id="firstNumber" class="numbers"></span>
+        <input type="text" id="inputField" class="input">
+        <span id="secondNumber" class="numbers"></span> 
+        <br>
+        <button id="submitButton" onclick="submitResult()" class="buttons">Submit</button>
+        <button id="resetButton" onclick="generateRandomNumbers()" class="buttons">Reset</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
